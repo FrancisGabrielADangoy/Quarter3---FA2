@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Q3 FA2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>calcU</h1>
+  <p id="intro"><b>This page is a simple calculator. Place two numbers in the text boxes and click the operator you want to use. </b></p>
+  <input type="number" id="num1" class="textbox" placeholder="Enter first number">
+  <input type="number" id="num2" class="textbox" placeholder="Enter second number">
+  <br>
+  <button class="button" onclick="calculate('+')">+</button>
+  <button class="button" onclick="calculate('-')">-</button>
+  <button class="button" onclick="calculate('*')">*</button>
+  <button class="button" onclick="calculate('/')">/</button>
+  <button class="button" onclick="calculate('%')">%</button>
+  <p id="result">Results will be displayed here.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
